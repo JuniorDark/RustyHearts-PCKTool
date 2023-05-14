@@ -6,21 +6,17 @@
 A C# Windows Forms application that allows extracting and repacking files from the Rusty Hearts game archives (PCK files).
 
 ## Getting Started
-
 To get started with this tool, simply download the latest release from the GitHub repository.
 
 Make sure the tool is placed in the game directory before running it. Once the tool is launched, it will display a tree view of the files in the archives.
 
 ### Extracting Files
-
 To extract files, select the files or folders you want to extract in the tree view and click the "Unpack Selected" button. The selected files will be extracted to the PCKOutput folder in the same directory as the PCK archive.
 
 ### Packing Files
-
 To pack files, select the files or folders you want to replace and drag and drop in the blue box. When packing remember to keep the same structure as the PCK.
 
 ## Usage
-
 1. Place the program in the game directory and run it.
 2. The program will read the PCK filelist (f00X.dat) and create a tree structure.
 3. Select the files to be extracted by checking the corresponding checkboxes.
@@ -28,7 +24,7 @@ To pack files, select the files or folders you want to replace and drag and drop
 5. Click the "Unpack All" button to extract all files.
 
 ## Prerequisites for Building Locally/Development
-The tool is built in .NET 7 and as such, the packages listed below are required to create a local and development build of the launcher. Furthermore, it uses many submodules and packages outside of this, which will automatically be loaded when the user sets up a local environment of the application.
+The tool is built in .NET 7 and as such, the packages listed below are required to create a local and development build of the tool. Furthermore, it uses many submodules and packages outside of this, which will automatically be loaded when the user sets up a local environment of the application.
 * Visual Studio 2022 (Any Edition - 17.4 or later)
 * Windows 10 SDK (10.0.19043.0) or Windows 11 SDK (10.0.22000.0) via Visual Studio Installer
 * .NET: [.NET Core 7 SDK (7.0.100 or later)](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
