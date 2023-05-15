@@ -1,5 +1,5 @@
 # Rusty Hearts PCK Tool
-[![License](https://img.shields.io/github/license/JuniorDark/RustyHearts-PCKTool?color=brown)](LICENSE)
+[![License](https://img.shields.io/github/license/JuniorDark/RustyHearts-PCKTool?color=green)](LICENSE)
 [![Build](https://github.com/JuniorDark/RustyHearts-PCKTool/actions/workflows/build.yml/badge.svg)](https://github.com/JuniorDark/RustyHearts-PCKTool/actions/workflows/build.yml)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/JuniorDark/RustyHearts-PCKTool)](https://github.com/JuniorDark/RustyHearts-PCKTool/releases/latest) <a href="https://github.com/JuniorDark/RustyHearts-PCKTool/releases">
 
