@@ -19,7 +19,7 @@ jobs:
         run: Compress-Archive -Path "./bin/Release/net7.0-windows/win-x86/publish/RH PCK Tool.exe" -DestinationPath RH_PCK_Tool.zip
 
       - name: Upload Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: RH PCK Tool
           path: RH_PCK_Tool.zip
